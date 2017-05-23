@@ -33,7 +33,7 @@ body {
 	margin: 0 auto;
 	background-color: white;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: -200px;
 }
 
 .container h1 {
@@ -143,20 +143,9 @@ body {
 }
 
 .column {
-	position: absolute;
+	position: relative;
 	width: 50%;
 	display: inline-block;
-	padding-left: 20px;
-}
-
-.left {
-	top: 0px;
-	left: 20px;
-}
-
-.right {
-	top:0px;
-	left:160px;
 }
 
 .icon img {
@@ -165,21 +154,46 @@ body {
 
 .l {
 	margin: 45px auto;
+	padding-left: 45px;
+	margin-left: ;
 }
 
 .r {
 	margin: 30px auto;
+	padding-left: 30px;
 }
 
 @media screen and (max-width: 900px) {
 	/* Refer to the 875px-wide browser screenshot for how this should look */
+	.one {
+		width: 40%;
+		display: inline-block;
+	}
 
+	.two {
+		width: 40%;
+		display: inline-block;
+	}
+
+	.three {
+		width: 100%;
+		padding-left: 30px;
+	}
 
 }
 
 @media screen and (max-width: 550px) {
 	/* Refer to the 525px-wide browser screenshot for how this should look */
 	/* At this point the partner logos switch back to just being two across. */
+	.section {
+		width: 100%;
+	}
 
+	.quote {
+		padding-left: 30px;
+	}
 
+	.source {
+		padding-left: 30px;
+	}
 }
